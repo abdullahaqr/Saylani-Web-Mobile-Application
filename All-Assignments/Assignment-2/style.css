@@ -1,0 +1,68 @@
+#index-body{
+    font-family: sans-serif;
+}
+#top{
+    text-align: center;
+}
+fieldset{
+    background-color: #6B5ACD;
+    width: 60%;
+    margin: auto;
+}
+
+#image{
+    height: 10%;
+    width: 30%;
+}
+#heading{
+    color: #7B74B7;
+}
+#content{
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+#quali-table{
+    line-height: 15px;
+}
+.col1{
+    width: 200px;
+    text-indent: 5px;
+    text-transform: uppercase;
+}
+.rows{
+    line-height: 50px;
+    vertical-align: text-top;
+}
+.table-align{
+    float: left;
+}
+#submit-heading{
+    color: #0A9003;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+label{
+    padding-left: 22px;
+    width: 240px;
+    display: inline-block;
+    font-size: 16.5px;
+}
+#submit-para{
+    color: #6F06BD;
+    font-size: 30px;
+    font-weight: bold;
+}
+#submit-body{
+    text-align: center;
+}
+#submit-img{
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+}
+#submit-link{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}

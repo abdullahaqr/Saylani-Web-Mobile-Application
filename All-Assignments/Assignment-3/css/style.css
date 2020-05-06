@@ -1,0 +1,207 @@
+
+#top-header{
+    background-color: #316DC3;
+    color: white;
+    
+}
+#top-header a{
+    color: white;
+}
+
+#header-icons{
+    display:flex;
+    justify-content:flex-end;
+    padding-top: 20px;
+    
+
+} 
+
+
+#whatsapp-icon{
+    color: #65BC54;
+    background-color: white;
+    height: 20px;
+}
+
+
+#header-text{
+    padding: 20px;
+    font-size:15px ;
+    text-align: center;
+}
+#header-button {
+    padding-top:20px;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+#header-button li {
+    display: inline;
+    
+}
+#header-button button{
+    font-size: small;
+    color: #64902E;
+    
+}
+#nav-img img{
+    width:200px;
+    
+}
+
+
+#active{
+    background-color:#316DC3 ;
+    color: white;
+    border-radius: 25px;
+}
+.nav-hov{
+    color: black !important;
+}
+.nav-hov:hover{
+    background-color:#316DC3 ;
+    color:white !important;
+    border-radius: 25px;
+}
+#active,.nav-hov{
+    padding: 8px 17px;
+}
+
+.container .row p{
+    margin-top: 12px; 
+    background-color: #316DC3;
+    color: white;
+}
+.font-green{
+    color: #00FF00;
+}
+.font-white{
+    color: #FFFFFF;
+}
+.news-strip .row p marquee a{
+    color: blue;
+}
+.news-strip{
+    margin-bottom: 0px;
+}
+
+.about-section-div{
+    background-color: #F7F8FA;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.introduction h1{
+    text-align: center;
+    font-family: Georgia;
+    color: #316DC3;
+    margin-top: 25px;
+    
+}
+.introduction h1 span{
+    color: #427900;
+}
+.introduction-img{
+    text-align: center;
+    
+    
+}
+.introduction-img img{
+    height: 45px;
+}
+
+.introduction-img #span-before{
+    
+    color: #427900;
+    margin-right: 15px;
+
+}
+.introduction-img #span-after{
+   
+    color: #427900;
+    margin-left: 15px;
+ 
+}
+
+.about-section-div p{
+    width: 60%;
+    text-align: justify ;
+    padding: 0px auto;
+    margin: 50px auto;
+    
+}
+.blue-bar{
+    background-color:#2755E9 ;
+}
+.blue-bar h1{
+    font-size: 50px;
+}
+
+
+.blue-bar .blue-bar-span{
+    color: #00FF00;
+    font-size: 25px;
+    
+}
+.blue-bar img{
+    height: 50px;
+}
+.what-we-do .col-md{
+    color: #316DC3;
+}
+.mission h3{
+    color: #316DC3;
+}
+
+.mission-span{
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #427900;
+}
+.mission marquee{
+    height: 250px;
+}
+.mission marquee p {
+    
+    color: gray !important;
+}
+.gallery .gallery-img{
+    height: 140px;
+}
+.footer-span{
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #427900;
+}
+footer hr{
+    color: #427900 !important;
+    
+}
+footer .green-icon{
+    color: #427900;
+}
+footer .connect-us-icons li{
+    display: inline-block;
+    justify-content: space-between;
+    
+    
+}
+
+.footer-bottom{
+    background-color: #316DD9;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+

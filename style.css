@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: silver;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+#header-icons{
+    display:flex;
+    justify-content:center;
+    padding-top: 20px;
+} 
+#header-icons a{
+    color: #BF9F00 !important;
+}
+
+nav{
+    
+    color: #BF9F00;
+    background-color: #011E4A; 
+    
+}
+nav h1{
+    font-size: 50px;
+    font-family: Georgia;
+
+}
+
+nav h3{
+    color: #FFFFFF;
+}
+.saylani-nav{
+    color: #011E4A;
+    background-color: #BF9F00;
+}
+
+
+
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background-color: #011E4A;
+    
+    
+
+    
+}
+.card img{
+    
+    height: 170px;
+    
+}
+.card a{
+    color: #FFFFFF;
+    background-color: #BF9F00;
+}
