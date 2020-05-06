@@ -9,8 +9,7 @@
 }
 
 #header-icons{
-    display:flex;
-    justify-content:flex-end;
+    
     padding-top: 20px;
     
 
@@ -31,8 +30,7 @@
 }
 #header-button {
     padding-top:20px;
-    display: flex;
-    justify-content: flex-start;
+    
     
     
 }
