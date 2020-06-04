@@ -19,7 +19,10 @@ a{
     padding-top: 20px;
 } 
 #header-icons a{
-    color: #BF9F00 !important;
+    color: #BF9F00 ;
+}
+#header-icons a i:hover{
+    color: #e2c74d ;
 }
 
 nav{
@@ -62,4 +65,67 @@ nav h3{
 .card a{
     color: #FFFFFF;
     background-color: #BF9F00;
+}
+
+.btn:hover{
+    color: #BF9F00 !important;
+    background-color: #011E4A !important;
+    border-color: #BF9F00 !important;
+}
+
+
+
+
+
+
+
+
+
+.heading-span{
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #BF9F00;
+}
+
+
+
+/* footer hr{
+    color: #427900 !important;
+    
+} */
+
+footer .golden-icon , .golden-icon{
+    color: #BF9F00;
+}
+
+.bg-dark{
+    background-color: #1B2A4E !important;
+}
+.quick-links li a{
+    color: #ffffff !important;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+footer .connect-us-icons li{
+    display: inline-block;
+    justify-content: space-between;
+}
+.connect-us-icons li a i:hover{
+    color: #e2c74d;
+    
+}
+.btn-secondary:hover{
+    color: #ffffff ;
+    background-color: #e2c74d;
+}
+.quick-links li a:hover{
+    color: #BF9F00 !important;
+}
+
+.footer-bottom{
+    background-color: #BF9F00;
+    color: #FFFFFF;
+    padding-top: 15px;
 }
