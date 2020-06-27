@@ -1,0 +1,121 @@
+body{
+    background-color: #207068;
+    /* background-color: #2BB6A9; */
+}
+.main{
+    /* border: 2px solid white; */
+    /* width: 20%; */
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+
+}
+
+.input{
+    width: 100%;
+    /* margin: 0px;
+    padding: 0px; */
+}
+.inputField{
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: black;
+    font-size: 55px;
+    background-color: #000807;
+    /* background-color: white; */
+    color: #2BB6A9;
+    text-align: right;
+    margin-top: 0px;
+    /* text-align: start; */
+}
+
+.btnRow{
+    /* margin: 0px 0px;
+    padding: 0px 0px; */
+    font-size: 0px;
+}
+
+.button{
+    /* width: 75px;
+    height: 75px; */
+    width: 25%;
+    height: 75px;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #0A181D;
+    /* border-color: #0A181D; */
+    border: 1px solid black;
+    /* font-size: 0px; */
+    /* margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; */
+    /* height: 25%; */
+    /* margin: 0px;
+    padding: 0px; */
+    /* text-decoration: none; */
+
+}
+.button:hover , .btnZero:hover{
+    background-color: #2BB6A9;
+}
+
+.operatorBtn{
+    width: 25%;
+    height: 75px;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #0A3B3C;
+    /* border-color: #0A181D; */
+    border: 1px solid black;
+}
+.operatorBtn:hover{
+    background-color: #368a8b;
+}
+
+.colorTextBtn{
+    width: 25%;
+    height: 75px;
+    font-size: 22px;
+    color: #2BB6A9;
+    background-color: #0A181D;
+    border: 1px solid black;
+    /* border-color: #0A181D; */
+}
+.colorTextBtn:hover{
+    color: red;
+    background-color: #2BB6A9;
+}
+
+
+.btnEqaulTo{
+    width: 50%;
+    height: 75px;
+    font-size: 22px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    background-color: #2BB6A9;
+    border: 1px solid #2BB6A9;
+    /* border-color: #0A181D; */
+}
+.btnEqaulTo:hover{
+    color: #2BB6A9;
+    background-color: #0A181D;
+    border: 1px solid #01ffe6;
+}
+
+.btnZero{
+    width: 25%;
+    height: 75px;
+    font-size: 22px;
+    border-bottom-left-radius: 20px;
+    color: #ffffff;
+    background-color: #0A181D;
+    border: 1px solid black;
+    /* border-color: #0A181D; */
+}
+
+
