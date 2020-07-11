@@ -99,7 +99,7 @@ body{
         font-size: 55px;
         background-color: #2DA8D8FF;
         display: inline-block;
-        border-radius: 40px;
+        border-radius: 20px;
         text-align: center;
         width: 100px;
         height: 100px;
@@ -123,7 +123,7 @@ body{
         font-size: 50px;
         background-color: #2DA8D8FF;
         display: inline-block;
-        border-radius: 40px;
+        border-radius: 20px;
         text-align: center;
         width: 100px;
         height: 90px;
@@ -135,7 +135,7 @@ body{
         width: 90%;
     }
     .colon{
-        color: #2DA8D8FF;
+        color: #fff;
         font-size: 55px;
         text-align: center;
         margin: 0 0 0 0 ;
@@ -143,10 +143,10 @@ body{
     #msec , #sec , #min , #hour {
         color: #fff;
         font-family: digital;
-        font-size: 47px;
+        font-size: 50px;
         background-color: #2DA8D8FF;
         display: inline-block;
-        border-radius: 40px;
+        border-radius: 20px;
         text-align: center;
         width: 100px;
         height: 80px;
@@ -169,7 +169,7 @@ body{
         font-size: 40px;
         background-color: #2DA8D8FF;
         display: inline-block;
-        border-radius: 40px;
+        border-radius: 20px;
         text-align: center;
         width: 100px;
         height: 70px;
@@ -192,7 +192,7 @@ body{
         font-size: 35px;
         background-color: #2DA8D8FF;
         display: inline-block;
-        border-radius: 40px;
+        border-radius: 20px;
         text-align: center;
         width: 100px;
         height: 65px;
