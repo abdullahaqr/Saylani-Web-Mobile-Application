@@ -21,6 +21,11 @@ ul.striped-list > li {
 }
 
 
+.navbar-brand{
+    font-size: 30px;
+}
+
+
 
 /* .input-group{
     margin: 0px !important;

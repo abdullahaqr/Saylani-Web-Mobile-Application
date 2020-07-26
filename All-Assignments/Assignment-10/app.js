@@ -70,29 +70,34 @@ function addTodo(){
     // create span tag
     var span = document.createElement("span");
     var spanText = document.createTextNode(todo_item.value)
+    span.setAttribute("class", "span_text w-75")
     span.appendChild(spanText)
 
     // create li tag with text node
     var li = document.createElement("li");
+    li.setAttribute("class", "input-group bg-white rounded-lg mt-3")
     li.appendChild(span)
-
-    // create delete button
-    var delBtn = document.createElement("button");
-    var delText = document.createTextNode("Delete");
-    delBtn.setAttribute("onclick", "deleteItem(this)")
-    delBtn.appendChild(delText)
 
     // create edit button
     var editBtn = document.createElement("button");
     var editText = document.createTextNode("Edit");
     editBtn.appendChild(editText)
     editBtn.setAttribute("onclick", "editItem(this)")
+    editBtn.setAttribute("class", "btn btn-success mx-2")
+
+    // create delete button
+    var delBtn = document.createElement("button");
+    var delText = document.createTextNode("Delete");
+    delBtn.setAttribute("onclick", "deleteItem(this)")
+    delBtn.setAttribute("class", "btn btn-danger")
+    delBtn.appendChild(delText)
 
     // create save button
     var saveBtn = document.createElement("button");
     var saveText = document.createTextNode("Save");
     saveBtn.appendChild(saveText)
     saveBtn.setAttribute("onclick", "saveItem(this)")
+    saveBtn.setAttribute("class", "btn btn-warning mx-2")
     saveBtn.setAttribute("style", "display: none")
 
     // create cancel button
@@ -100,6 +105,7 @@ function addTodo(){
     var cancelText = document.createTextNode("Cancel");
     cancelBtn.appendChild(cancelText)
     cancelBtn.setAttribute("onclick", "cancelItem(this)")
+    cancelBtn.setAttribute("class", "btn btn-secondary")
     cancelBtn.setAttribute("style", "display: none")
     
 
@@ -136,7 +142,7 @@ function editItem(a){
     cancel_data = todo_item;
 
     // this line puts the input field along with old todo name to be edited and overrite on the todo name
-    edit_row.childNodes[0].innerHTML = "<input type='text'  value='" + todo_item + "'>";
+    edit_row.childNodes[0].innerHTML = "<input class='form-control span_text' type='text'  value='" + todo_item + "'>";
     // console.log(edit_row)
 }
 
