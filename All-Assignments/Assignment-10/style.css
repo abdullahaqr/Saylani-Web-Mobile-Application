@@ -1,0 +1,38 @@
+/* ul.striped-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+ul.striped-list > li:nth-of-type(odd) {
+    background-color: #e9e9f9 !important;
+}
+/* ul.striped-list > li:nth-of-type(even) {
+    background-color: #fff ;
+} */
+
+ul.striped-list > li {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 10px;
+}
+
+.span_text{
+    font-size: 20px !important;
+}
+
+
+
+/* .input-group{
+    margin: 0px !important;
+    padding: 0px !important;
+} */
+
+/* .list_span{
+    background-color: aqua;
+    align-self: left !important;
+    width: 60% !important;
+}
+.input_span{
+    margin-left: 0px;
+    width: 60%;
+} */
