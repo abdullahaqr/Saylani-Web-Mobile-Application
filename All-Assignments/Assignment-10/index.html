@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -12,129 +12,36 @@
 
 <body class="bg-dark">
 
-    <!-- <div>
-        <input placeholder="Enter Todo" type="text" id="todo-item">
-        <button onclick="addTodo()">ADD ITEM</button> <button onclick="deleteAll()">DELETE ALL</button>
-    </div>
-
-    <div>
-        <ul id="list">
-
-        </ul>
-    </div> -->
-
-
-
-
-
-
-
-
     <div class="mainDiv container-sm">
 
         <nav class="navbar py-4 navbar-dark bg-info rounded-lg">
             <span class="navbar-brand mb-0 h1">TODO LIST</span>
         </nav>
 
-        <div class="input-group input-group-lg my-5">
-            <input class="form-control" placeholder="Enter Todo" type="text" id="todo-item">
-            <button class="btn btn-lg btn-primary mx-2" onclick="addTodo()">ADD ITEM</button>
-            <button class="btn btn-lg btn-danger" onclick="deleteAll()">DELETE ALL</button>
+
+        <div>
+            <div class="input-group input-group-lg mt-5 mb-3">
+                <input class="form-control rounded-lg todo-input" placeholder="Enter Todo" type="text" id="todo-item">
+            </div>
+
+            <div class="text-center">
+                <div>
+                    <button class="btn addItemBtn mr-1 btn-primary" onclick="addTodo()">ADD ITEM</button>
+                    <button class="btn DeleteAllBtn ml-1 btn-danger" onclick="deleteAll()">DELETE ALL</button>
+                </div>
+            </div>
         </div>
 
-        <!-- <div class="my-2"> -->
-
-        <ul class="striped-list rounded-lg mt-2" id="list">
-
-            <!-- <li class="input-group bg-white rounded-lg mt-3">
-                <span class="span_text w-75">
-                    <input class="form-control span_text" type="text" value="abd">
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: none;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: none;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: inline;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: inline;">Cancel</button>
-            </li>
 
 
-            <li class="input-group  bg-white rounded-lg mt-3">
-                <span class="span_text w-75">
-                    abd
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: inline;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: inline;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: none;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: none;">Cancel</button>
-            </li>
+        <div class="striped-list mt-2" id="list">
 
-            <li class="input-group  bg-white rounded-lg mt-3">
-                <span class="span_text w-75">
-                    <input class="form-control span_text" type="text" value="abd">
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: none;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: none;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: inline;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: inline;">Cancel</button>
-            </li> -->
+        </div>
 
-        </ul>
-
-
-
-
-        <!-- <ul class="striped-list" id="list">
-
-            <li>
-                <span>
-                    <input class="span_text" type="text" value="abd">
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: none;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: none;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: inline;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: inline;">Cancel</button>
-            </li>
-
-
-            <li>
-                <span>
-                    abd
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: inline;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: inline;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: none;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: none;">Cancel</button>
-            </li>
-
-            <li>
-                <span>
-                    <input class="span_text" type="text" value="abd">
-                </span>
-                <button class="btn btn-success mx-2" onclick="editItem(this)" style="display: none;">Edit</button>
-                <button class="btn btn-danger" onclick="deleteItem(this)" style="display: none;">Delete</button>
-                <button class="btn btn-warning mx-2" onclick="saveItem(this)" style="display: inline;">Save</button>
-                <button class="btn btn-secondary" onclick="cancelItem(this)" style="display: inline;">Cancel</button>
-            </li>
-
-        </ul> -->
-
-
-        <!-- </div> -->
+        
 
     </div>
 
-
-
-
-
-    <!-- <li>
-        <span>
-            <input type="text" value="abd">
-        </span>
-        <button onclick="editItem(this)" style="display: none;">Edit</button>
-        <button onclick="deleteItem(this)" style="display: none;">Delete</button>
-        <button onclick="saveItem(this)" style="display: inline;">Save</button>
-        <button onclick="cancelItem(this)" style="display: inline;">Cancel</button>
-    </li> -->
 
 
 
