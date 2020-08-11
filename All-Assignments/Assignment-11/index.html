@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+
+
+
+        <div id="welcome" class="container bg-white border rounded-lg">
+            <div class="row my-5">
+                <div class="col-md-12 text-center">
+                    <h2 class="heading-h2"><b>Welcome To Quiz App</b></h2>
+                    <h4 class="mt-3"><b>Total Questions :</b> 5 , <b>Time :</b> 2 minutes</h4>
+                
+                <div class="input-group input-group-lg">
+                    <input class="form-control mx-auto mt-5" type="text" id="name" placeholder="Enter Your Name">
+                </div>
+                    
+                    <button class="btn btn-lg mt-5" onclick="startQuiz()"> Start Quiz </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="quiz" class="container d-none">
+            <div class="row h-100">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <div id="header" class="d-inline-block">Hello</div>
+                            <div id="timer" class="d-inline-block float-right"><span id="minSpan">02</span>:<span id="secSpan">00</span></div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title mt-4 pb-3" id="questionElement">Q1. Question one ?</h3>
+                            <p class="card-text optionElement p-2 mt-4 shadow" onclick="putActiveClass(this)">option 1 goes here</p>
+                            <p class="card-text optionElement p-2 mt-4 shadow" onclick="putActiveClass(this)">option 2 goes here</p>
+                            <p class="card-text optionElement p-2 mt-4 shadow" onclick="putActiveClass(this)">option 3 goes here</p>
+                            <p class="card-text optionElement p-2 mt-4 shadow" onclick="putActiveClass(this)">option 4 goes here</p>
+                        </div>
+                        <div class="card-footer text-right">
+                            <a href="#" class="btn nextBtn" onclick="nextQuestion()">NEXT QUESTION</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+
+
+        
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>
