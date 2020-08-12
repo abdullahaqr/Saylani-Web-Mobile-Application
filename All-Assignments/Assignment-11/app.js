@@ -98,6 +98,8 @@ function tryAgain() {
     var name = document.getElementById("name")
     name.value = nameTry
 
+    attemptAnswer = 0
+
     interval = setInterval(timerFunc, 1000)
 }
 
@@ -224,6 +226,7 @@ function showResult() {
 
     questionCount = 0;
     score = 0;
+    attemptAnswer = 0;
     correctAnswer = 0;
     wrongAnswer = 0;
     percentageAnswer = 0;
@@ -244,6 +247,7 @@ function goToHome() {
 
     questionCount = 0;
     score = 0;
+    attemptAnswer = 0;
     correctAnswer = 0;
     wrongAnswer = 0;
     percentageAnswer = 0;
