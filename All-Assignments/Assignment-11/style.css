@@ -6,17 +6,21 @@ body{
     background-color: #009687d3 !important;
     color: #ffffff !important;
 }
+
 #welcome{
     margin-top: 12%;
     border-radius: 15px !important;
 }
+
 .heading-h2{
     color: #009688;
 }
+
 .btn-lg{
     color: #ffffff;
     background-color: #009688;
 }
+
 .btn-lg:hover{
     color: #ffffff;
     background-color: #009687b0;
@@ -25,6 +29,7 @@ body{
 .display-none{
     display: none;
 }
+
 .optionElement{
     background-color: #fdfdfd;
     margin-top: 35px;
@@ -32,32 +37,55 @@ body{
     font-size: 20px;
     border-radius: 7px;
 }
+
 .optionElement:hover{
     background-color: #0096879a;
 }
+
 .card-header{
     font-size: 20px;
 }
+
 .nextBtn{
     color: #ffffff;
     background-color: #009688;
 }
+
 .nextBtn:hover{
     color: #ffffff;
     background-color: #009687c7;
 }
+
 .timerRed{
     color: red;
 }
 
+#result{
+    margin-top: 6%;
+    border-radius: 15px !important;
+}
+
+div.striped-list > div:nth-of-type(odd) {
+    background-color: #e9e9f9d3 !important;
+}
+
+.table-striped{
+    font-size: 20px;
+}
+
+table.table-striped > tbody > tr:nth-of-type(odd){
+    background-color: #0096874f;
+}
 
 @media screen and (min-width: 580px){
     #welcome{
         width: 800px;
     }
+
     .heading-h2{
         font-size: 45px;
     }
+
     .input-group{
         margin: 0 auto;
         width: 60%;
@@ -67,18 +95,30 @@ body{
         margin-top: 5%;
         height: 600px;
     }
+
+    #result{
+        width: 700px;
+    }
+
+    .table-striped{
+        margin: 0 auto;
+        width: 500px;
+    }
 }
+
 @media screen and (max-width: 330px){
     #quiz{
         margin-top: 5%;
     }
-    
+
     .optionElement{
         font-size: 17px;
     }
+
     #questionElement{
         font-size: 25px;
     }
+
     .card-header{
         font-size: 15px;
     }

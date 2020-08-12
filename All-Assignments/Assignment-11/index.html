@@ -55,7 +55,7 @@
                             <p class="card-text optionElement p-2 mt-4 shadow" onclick="putActiveClass(this)">option 4 goes here</p>
                         </div>
                         <div class="card-footer text-right">
-                            <a href="#" class="btn nextBtn" onclick="nextQuestion()">NEXT QUESTION</a>
+                            <a href="#" class="btn nextBtn" onclick="nextQuestion()">Next</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,49 @@
 
 
 
-        
+        <div id="result" class="container bg-white border rounded-lg d-none">
+            <div class="row my-4">
+                <div class="col-md-12 text-center">
+                    <h2 class="heading-h2"><b>Quiz Result</b></h2>
+                    
+                    <table class="table table-striped mt-5">
+                        <tbody>
+                          <tr>
+                            <th scope="row">Student Name</th>
+                            <td id="studentName">abc</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total Question</th>
+                            <td>5</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Attempt</th>
+                            <td id="attempt">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Correct</th>
+                            <td id="correct">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Wrong</th>
+                            <td id="wrong">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Percentage</th>
+                            <td id="percentage">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total Score</th>
+                            <td id="totalScore"> / 50</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    <button class="btn btn-lg mt-5" onclick="tryAgain()"> Try Again </button>
+                    <button class="btn btn-lg mt-5" onclick="goToHome()"> Go To Home </button>
+                </div>
+            </div>
+        </div>
 
 
 
