@@ -1,0 +1,29 @@
+div.striped-list > div:nth-of-type(odd) {
+    background-color: #e9e9f9d3 !important;
+}
+
+
+div.striped-list > div {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 10px;
+}
+
+
+.span_text{
+    font-size: 20px !important;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+.addItemBtn:hover{
+    color: #007BFF;
+    border-color: #007BFF;
+    background-color: #343A40;
+}
+.DeleteAllBtn:hover{
+    color: #DC3545;
+    border-color: #DC3545;
+    background-color: #343A40;
+}
+

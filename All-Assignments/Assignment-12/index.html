@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCidGo5VHR5G2TZx5cXN96pmGBJx_NIPTs",
+            authDomain: "abdullah-aqr.firebaseapp.com",
+            databaseURL: "https://abdullah-aqr.firebaseio.com",
+            projectId: "abdullah-aqr",
+            storageBucket: "abdullah-aqr.appspot.com",
+            messagingSenderId: "21822455546",
+            appId: "1:21822455546:web:9d91b83a7bea74b67f1343",
+            measurementId: "G-NNQ4YSB6DM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+</head>
+
+<body class="bg-dark">
+
+    <div class="mainDiv container-sm">
+
+        <nav class="navbar py-4 navbar-dark bg-info rounded-lg">
+            <span class="navbar-brand mb-0 h1">TODO LIST</span>
+        </nav>
+
+
+        <div>
+            <div class="input-group input-group-lg mt-5 mb-3">
+                <input class="form-control rounded-lg todo-input" placeholder="Enter Todo" type="text" id="todo-item">
+            </div>
+
+            <div class="text-center">
+                <div>
+                    <button class="btn addItemBtn mr-1 btn-primary" onclick="addTodo()">ADD ITEM</button>
+                    <button class="btn DeleteAllBtn ml-1 btn-danger" onclick="deleteAll()">DELETE ALL</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="striped-list mt-2" id="list">
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
