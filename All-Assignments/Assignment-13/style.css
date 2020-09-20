@@ -1,0 +1,89 @@
+body{
+  background-color: #009688 !important;
+}
+
+.chat-screen{
+  width: 275px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px !important;
+}
+.card-header{
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+.card-body{
+  background-color: #343a40c4 !important;
+}
+.card-footer{
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+.del-btn-div{
+  margin-right: 1px !important;
+}
+
+li{
+  list-style: none;
+}
+#messages{
+  margin-left: 0px;
+}
+
+
+/* --------------
+signIn-signUp
+----------------- */
+.signIn{
+  margin-top: 6%;
+}
+
+.signIn-signUp{
+  margin-top: 12%;
+}
+
+.fb-login{
+  margin-top: 12%;
+}
+
+
+#welcome{
+  border-radius: 15px !important;
+}
+
+.heading-h2{
+  color: #009688;
+}
+
+.email-heading , .password-heading{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20%;
+}
+
+@media screen and (min-width: 580px){
+  #welcome{
+      width: 800px;
+  }
+
+  .heading-h2{
+      font-size: 45px;
+  }
+
+  .input-group{
+      margin: 0 auto;
+  }
+
+  .input-group-lg{
+      margin: 0 auto;
+      width: 60% !important;
+  }
+}
